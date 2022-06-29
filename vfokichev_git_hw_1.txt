@@ -1,0 +1,191 @@
+GIT Homework 1
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+на сайте https://github.com под своей учёткой создал репозиторий JSON
+
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+git clone git@github.com:vfokichev2022/JSON.git
+
+ 6. Внутри локального JSON создать файл “new.json”.
+cd JSON
+touch new.json
+
+ 7. Добавить файл под гит.
+git add new.json
+
+ 8. Закоммитить файл.
+git commit -m "add new.json"
+
+ 9. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+===начало new.json===
+{
+  "second_name": "Fokichev",
+  "first_name": "Vladimir",
+  "middle_name": "Alekseevich",
+  "pets_quantity": 0,
+  "future_desired_salary": 1000
+}
+===конец new.json===
+
+ 11. Отправить изменения на внешний репозиторий.
+git add new.json
+git commit -m "add info in new.json"
+git push
+
+ 12. Создать файл preferences.json
+touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате JSON.
+===начало preferences.json===
+{
+"favorite_movie": "Back to the Future",
+"favourite_serial": "Once Upon a Time",
+"favorite_food": "potatoes",
+"favorite_time_of_year": "summer",
+"country like to visit": "Croatia"
+}
+===конец preferences.json===
+
+ 14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+echo "[\"terminal\", \"git\", \"java script\", \"postman\"]" > skills.json
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+git add .
+git commit -m "add preferences.json, skills.json"
+git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+на сайте https://github.com под своей учёткой создал bug_report.json
+(нажать Add file, Create new file, ввести имя)
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+нажать Commit new file
+
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+нажимаем на файл, выбираем Edit this file
+===начало bug_report.json===
+{
+"Author": "Vadim Ksendzov",
+"Bug_id": 1,
+"Title": "The SAVE DATA button is smaller than the others",
+"Severity": "trivial",
+"Priority": "low",
+"Environment": "Xiaomi Redmi S2, android 9 PKQ1.181203.001, MIUI global 12.0.1",
+"Precondition": "Open the app",
+"STR": "Check the UI",
+"AR": "The SAVE DATA button is smaller than the others",
+"ER": "The application buttons have one view",
+"Attachments": "https://drive.google.com/file/d/1ehl6btawxi2NbNtwKYwE4VhvKWUaWL_M/view?usp=sharing"
+}
+===конец bug_report.json===
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ввести описание изменений и нажать Commit changes
+
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+git pull
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+на сайте https://github.com под своей учёткой создал репозиторий XML
+
+ 22. Клонировать репозиторий XML на локальный компьютер.
+git clone git@github.com:vfokichev2022/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.
+cd XML
+touch new.xml
+
+ 24. Добавить файл под гит.
+git add new.xml
+
+ 25. Закоммитить файл.
+git commit -m "add new.xml"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+===начало new.xml===
+<?xml version="1.0"?>
+<new>
+  <second_name>Fokichev</second_name>
+  <first_name>Vladimir</first_name>
+  <middle_name>Alekseevich</middle_name>
+  <pets_quantity>0</pets_quantity>
+  <future_desired_salary>100000</future_desired_salary>
+</new>
+===конец new.xml===
+
+ 28. Отправить изменения на внешний репозиторий.
+git commit -m "add info to new.xml"
+git push
+
+ 29. Создать файл preferences.xml
+touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+===начало preferences.xml===
+<?xml version="1.0"?>
+<preferences>
+  <favorite_movie>Back to the Future</favorite_movie>
+  <favourite_serial>Once Upon a Time</favourite_serial>
+  <favorite_food>potatoes</favorite_food>
+  <favorite_time_of_year>summer</favorite_time_of_year>
+  <country_like_to_visit>Croatia</country_like_to_visit>
+</preferences>
+===конец preferences.xml===
+
+ 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+touch skills.xml
+===начало skills.xml===
+<?xml version="1.0"?>
+<skills>
+   <skill>terminal</skill>
+   <skill>git</skill>
+   <skill>java script</skill>
+   <skill>postman</skill>
+</skills>
+===конец skills.xml===
+
+ 32. Сделать коммит в одну строку.
+git add . && git commit -m "add preferences.xml, skills.xml"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+на сайте https://github.com под своей учёткой создал bug_report.xml
+(нажать Add file, Create new file, ввести имя)
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+нажать Commit new file
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+нажимаем на файл, выбираем Edit this file
+===начало bug_report.xml===
+<?xml version="1.0"?>
+<bug_report>
+  <Author>Vadim Ksendzov</Author>
+  <Bug_id>1</Bug_id>
+  <Title>The SAVE DATA button is smaller than the others</Title>
+  <Severity>trivial</Severity>
+  <Priority>low</Priority>
+  <Environment>Xiaomi Redmi S2, android 9 PKQ1.181203.001, MIUI global 12.0.1</Environment>
+  <Precondition>Open the app</Precondition>
+  <STR>Check the UI</STR>
+  <AR>The SAVE DATA button is smaller than the others</AR>
+  <ER>The application buttons have one view</ER>
+  <Attachments>https://drive.google.com/file/d/1ehl6btawxi2NbNtwKYwE4VhvKWUaWL_M/view?usp=sharing</Attachments>
+</bug_report>
+===конец bug_report.xml===
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ввести описание изменений и нажать Commit changes
+
+ 38. Синхронизировать внешний и локальный репозиторий XML
+git pull
